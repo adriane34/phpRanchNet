@@ -1,0 +1,11 @@
+<phpunit colors="true">
+    <filter>
+        <whitelist>
+            <directory suffix=".php">/var/www/html/test/</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="~/test/coverage" charset="UTF-8" yui="true" highlight="true"/>
+        <log type="coverage-text" target="~/test/coverage.txt"/>
+    </logging>
+</phpunit>
