@@ -5,7 +5,7 @@
         </whitelist>
     </filter>
     <logging>
-        <log type="coverage-html" target="~/test/coverage" charset="UTF-8" yui="true" highlight="true"/>
-        <log type="coverage-text" target="~/test/coverage.txt"/>
+        <log type="coverage-html" target="/var/www/html/test/coverage" charset="UTF-8" yui="true" highlight="true"/>
+        <log type="coverage-text" target="/var/www/html/test/coverage/coverage.txt"/>
     </logging>
 </phpunit>
